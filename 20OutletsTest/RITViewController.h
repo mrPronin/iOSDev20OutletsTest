@@ -10,4 +10,14 @@
 
 @interface RITViewController : UIViewController
 
+@property (strong, nonatomic) IBOutletCollection(UIView) NSArray *testViews;
+
+/*
+ @property (weak, nonatomic) IBOutlet UIView *testView;
+@property (weak, nonatomic) IBOutlet UIView *testView02;
+@property (weak, nonatomic) IBOutlet UIView *testView03;
+@property (weak, nonatomic) IBOutlet UIView *testView04;
+@property (weak, nonatomic) IBOutlet UIView *testView05;
+*/
+
 @end
